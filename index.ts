@@ -28,6 +28,7 @@ import inquirer from "inquirer";
 //it gives dice value i.e; 1 - 6
 
 const randomNumber = Math.floor(Math.random()*6 + 1);
+console.log("welcome to number guessing game");
 //it gives numbers from 1 - 10
 
 const answer = await inquirer.prompt([
